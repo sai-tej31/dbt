@@ -1,1 +1,0 @@
-select c.customer_name,c.customer_address,o.* from main.bronze.customers c join mian.bronze.orders orders o on c.customer_id = o.customer_id
