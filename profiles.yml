@@ -4,7 +4,8 @@
      databricks_job:
       type: databricks
       method: http
-      schema: "dbt_sp"
+      catalog: main
+      schema: dbt_sp
       host: "adb-2267018984906924.4.azuredatabricks.net"
       http_path: "sql/protocolv1/o/2267018984906924/0420-012600-drj2enb1"
       token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
